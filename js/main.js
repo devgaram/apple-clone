@@ -715,6 +715,7 @@
     }
   }
 
+  // DomContentload: 이미지로드 안돼도 html만 로드되도 실행됨.
   window.addEventListener("load", () => {
     document.body.classList.remove("before-load");
     setLayout();
